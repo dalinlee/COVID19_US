@@ -109,7 +109,7 @@ for(R0_red in R0_red.c){
               colnames(ind_aff_t) = c("infected","date_infected","days_infected","contagious")
               ind_aff = rbind(ind_aff,ind_aff_t)  
             }
-           print(paste("total inf",nrow(ind_aff)))
+           #print(paste("total inf",nrow(ind_aff)))
             
             ##### export to US
             if(i<31 + 6) n_fly_sfo = round(3239/13) else n_fly_sfo = round(4111/14)
